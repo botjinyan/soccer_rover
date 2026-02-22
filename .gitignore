@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.pt
+*.engine
+*.ncnn_model/
+*.jpg
+*.png

@@ -1,0 +1,22 @@
+description: Ultralytics best model trained on data.yaml
+author: Ultralytics
+date: '2026-02-19T14:09:51.932650'
+version: 8.3.236
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 320
+- 320
+names:
+  0: goal area
+  1: left post
+  2: red ball
+  3: right post
+  4: top post
+args:
+  batch: 1
+  half: false
+channels: 3
