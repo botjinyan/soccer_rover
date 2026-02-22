@@ -9,7 +9,7 @@ ser = serial.Serial('/dev/ttyACM0', 115200, timeout=1)
 time.sleep(2)  # allow Arduino reset
 
 # ==== YOLO ====
-model = YOLO("best_ncnn_model")
+model = YOLO("first_ncnn_model")
 
 # ==== CAMERA ====
 cap = cv2.VideoCapture("/dev/video0", cv2.CAP_V4L2)
